@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.26403.7
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeckOCards", "DeckOCards\DeckOCards.csproj", "{3F154F70-F2F4-4CB0-BDCF-44BF90E28563}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestOCards", "TestOCards\TestOCards.csproj", "{192341F0-8512-4BA9-B6E7-C044D2EBF118}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{3F154F70-F2F4-4CB0-BDCF-44BF90E28563}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3F154F70-F2F4-4CB0-BDCF-44BF90E28563}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3F154F70-F2F4-4CB0-BDCF-44BF90E28563}.Release|Any CPU.Build.0 = Release|Any CPU
+		{192341F0-8512-4BA9-B6E7-C044D2EBF118}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{192341F0-8512-4BA9-B6E7-C044D2EBF118}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{192341F0-8512-4BA9-B6E7-C044D2EBF118}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{192341F0-8512-4BA9-B6E7-C044D2EBF118}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

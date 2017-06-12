@@ -2,11 +2,28 @@
 
 namespace DeckOCards
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var deck = new Deck();
+            Console.WriteLine(deck.ToString());
+
+            while (true)
+            {
+                var s = Console.ReadLine();
+
+                if (s == "shuffle")
+                {
+                    deck.Shuffle();
+                    Console.WriteLine(deck.ToString());
+                }
+                else if (s == "sort")
+                {
+                    deck = new Deck();
+                    Console.WriteLine(deck.ToString());
+                }
+            }
         }
     }
 }
